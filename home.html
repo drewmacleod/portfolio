@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul class='nav_links'>
+					<li> <a class= 'nav_item' id='current' href="home.html">Home</a> </li>
+					<li> <a class= 'nav_item' href="burritos.html">Burritos</a> </li>
+					<li> <a class= 'nav_item' href="tacos.html">Tacos</a> </li>
+					<li> <a class= 'nav_item' href="food_chains.html"> Mexican Food Chains</a> </li> 
+				</ul>
+			</nav>
+			<a class = "jump" href="#jump">Jump to Content</a>
+		</header>
+		<main id='jump'>
+		<p> Fill out name and email to hear more about Mexican Cuisine! </p>
+		<form action="https://formspree.io/xpzlpkae" method="POST">
+  			<label for ="name">Name:</label><input type="text" name="name" id="name">
+  			<label for ="_replyto">Email Address:</label><input type="email" name="_replyto" id="_replyto">
+  			<input type="submit" value="Send">
+		</form>
+		<h1> Mexican Cuisine </h1>
+		<div class="flip-card" >
+			<div class="flip-card-inner">
+    			<div class="flip-card-front">
+					<img id='flag' src="images/mexican_flag.jpg" alt="Mexican flag">
+				</div>
+				<div class="flip-card-back">
+					<h2> Mexican Flag Meaning</h2>
+					<ul>
+						<li> The green stripe on the Mexican flag represents the Independence Movement. </li>
+						<li> The white stripe represents the purity of the Catholic faith </li>
+						<li> The red stripe represents the Spaniards that joined in the quest for Independence and the blood of the national heroes. </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<h2> History of Mexican Cuisine </h2>
+		<p class= 'mex_history'> 
+			The history of Mexican food is a long and diverse one. It is believed that authentic Mexican food might have been derived from the Mayan Indians. In the mid 1300's, The Aztec Empire was thriving, and though the Mayan food staples were still in use, chili peppers, honey, salt and chocolate found its way into their cooking. In 1521 Spain invaded Mexico. Spanish foods had the most influence on the Mexican cuisine. They introduced new livestock, such as sheep, pigs and cows. They brought with them dairy products, and garlic as well as many different herbs, wheat and spices. Some iconic Mexican foods and some fun facts about them are below!
+		</p>
+			<div class='mexican_foods'>
+				<div class='grid-item'> 
+					<h3> Tacos </h3>
+					<ul class='fun_facts'>
+						<li> Tacos were invented between 1000 and 500 B.C. </li>
+						<li> National Taco Day is October 4th </li>
+						<li> Americans eat roughly 4.5 billion tacos every year </li>
+					</ul>
+				</div>
+				<div class ='grid-item'> 
+					<h3> Burritos </h3>
+					<ul class='fun_facts'>
+						<li> The burrito first appeared in Mexico in the Early 1900's</li>
+						<li> Burrito means "little donkey" in Spanish</li>
+						<li> The largest burrito weighed 12,785.576 lbs</li>
+					</ul>
+				</div>
+				<div class='grid-item'> 
+					<h3> Enchiladas </h3>
+					<ul class='fun_facts'>
+						<li> The enchilada is one of the foods mentioned in Mexico's first cookbook in 1831</li>
+						<li> May 5th is National Enchilada Day in addition to Cinco de Mayo</li>
+						<li> The word enchilada comes from the Spanish word "enchilar" that translates to "to add chile pepper to"</li>
+					</ul>
+				</div>
+				<div class='grid-item'> 
+					<h3> Guacamole </h3>
+					<ul class='fun_facts'>
+						<li> Guacamole originated in Mexico in the 1300's</li>
+						<li> In 1871, the first avocado tree was planted in California</li>
+						<li> Today California supplies almost 90% of the U.S. supply of avocados</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+		<footer>
+		 <p> University of Michigan School of Information <br/>
+		 	&copy; Drew MacLeod, SI 339 Individual Portfolio</p>
+		</footer>
+	</body>
+</html>
